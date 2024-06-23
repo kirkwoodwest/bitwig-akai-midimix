@@ -9,7 +9,7 @@ import java.util.UUID;
 
 public class AkaiMaxiMixExtensionDefinition extends ControllerExtensionDefinition
 {
-   private static final UUID DRIVER_ID = UUID.fromString("a1fa1af8-1b69-1c2a-9e85-3db407da2e5c");
+   private static final UUID DRIVER_ID = UUID.fromString("b2fa1af8-1b69-1c2a-9e85-3db407da2f5c");
 
    public AkaiMaxiMixExtensionDefinition()
    {

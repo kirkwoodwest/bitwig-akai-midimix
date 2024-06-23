@@ -90,7 +90,7 @@ public class PreferencesJson {
       }
     });
 
-    String jsonString = JSON.toJSONString(jsonMap, true); // `true` enables pretty-print
+    String jsonString = JSON.toJSONString(jsonMap); // `true` enables pretty-print
     try (FileWriter writer = new FileWriter(fileAndPath)) {
       writer.write(jsonString);
     } catch (IOException e) {

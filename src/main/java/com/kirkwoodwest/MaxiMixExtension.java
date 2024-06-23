@@ -5,6 +5,8 @@ import com.bitwig.extension.callback.ShortMidiMessageReceivedCallback;
 import com.bitwig.extension.controller.api.ControllerHost;
 import com.bitwig.extension.controller.api.Transport;
 import com.bitwig.extension.controller.ControllerExtension;
+import com.kirkwoodwest.closedwoods.trackmaster.projectremotes.ProjectRemotes;
+import com.kirkwoodwest.hardware.HardwareMidiMix;
 
 public class MaxiMixExtension extends ControllerExtension
 {
@@ -18,9 +20,14 @@ public class MaxiMixExtension extends ControllerExtension
    {
       final ControllerHost host = getHost();      
 
-      mTransport = host.createTransport();
-      host.getMidiInPort(0).setMidiCallback((ShortMidiMessageReceivedCallback)msg -> onMidi0(msg));
-      host.getMidiInPort(0).setSysexCallback((String data) -> onSysex0(data));
+
+      //NEW PROJECT REMOTES
+      ProjectRemotes projectRemotes = new ProjectRemotes(host, "", 7);
+      //New Akai MidiMix Hardware
+      HardwareMidiMix hardwareMidiMix = new HardwareMidiMix(host, 0, null);
+      hardwareMidiMix.hardware_knobs_row_1.get(0).setBinding()
+
+      //Create Button to do the mapping, should blink in mapping mode.
 
       // TODO: Perform your driver initialization here.
       // For now just show a popup notification for verification that it is running.

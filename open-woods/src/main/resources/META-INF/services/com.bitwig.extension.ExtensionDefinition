@@ -1,14 +1,1 @@
-#com.kirkwoodwest.extensions.akaimaximix.AkaiMaxiMixExtensionDefinition
-#com.kirkwoodwest.extensions.usercontrolsosc.UserControlsOscExtensionDefinition
-#com.kirkwoodwest.extensions.synctool.extension.SyncToolExtensionDefinition
-#com.kirkwoodwest.extensions.commander.CommanderExtensionDefinition
-#com.kirkwoodwest.extensions.datafeed.DataFeedExtensionDefinition
-#com.kirkwoodwest.extensions.oscprojectfader.OscFaderCursorExtensionDefinition
-#com.kirkwoodwest.extensions.pluginwindow.PluginWindowControlExtensionDefinition
-#com.kirkwoodwest.extensions.kirkwood.snapshot.MFTSnapShotExtensionDefinition
-#com.kirkwoodwest.extensions.bidirectional.BiDirectionalExtensionDefinition
-#com.kirkwoodwest.extensions.kirkwood.trackparser.TrackParserExtensionDefinition
-#com.kirkwoodwest.extensions.test.MF3DLayers.MF3dLayersExtensionDefinition
-#com.kirkwoodwest.extensions.kirkwood.plastikremotes.PlastikremotesExtensionDefinition
-#com.kirkwoodwest.extensions.kirkwood.trackmaster.extensions.twisterandmf3d.TwisterMF3DExtensionDefinition
-com.kirkwoodwest.extensions.bugreporting.BugReportingExtensionDefinition
+com.kirkwoodwest.extensions.akaimaximix.AkaiMaxiMixExtensionDefinition
